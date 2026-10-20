@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ergotherapie</title>
+<style>
+  :root{--bg:#EDEDEB;--soft:#E1E1DF;--ink:#2B2D2E;--mute:#5A5E60;--paper:#FAFAF9;--ochre:#D9832F;--sage:#8A9092;--sage-d:#4F5658;--line:rgba(43,45,46,.16);--addbg:rgba(217,131,47,.16)}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1E1F20;--soft:#262728;--ink:#EDEDEB;--mute:#B4B7B8;--paper:#252627;--line:rgba(237,237,235,.15);--addbg:rgba(217,131,47,.26)}}
+  :root[data-theme="dark"]{--bg:#1E1F20;--soft:#262728;--ink:#EDEDEB;--mute:#B4B7B8;--paper:#252627;--line:rgba(237,237,235,.15);--addbg:rgba(217,131,47,.26)}
+  *{box-sizing:border-box}
+  :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Karla,-apple-system,"Segoe UI",sans-serif}
+  h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0;font-weight:600}
+  .wrap{max-width:820px;margin:0 auto;padding:48px 24px 72px}
+  h1{font-size:clamp(2rem,5vw,2.8rem)}
+  .intro{color:var(--mute);margin:14px 0 22px;max-width:60ch}
+  .legend{font-size:.92rem;color:var(--mute);padding:12px 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper)}
+  .add{background:var(--addbg);border-radius:4px;padding:0 4px}
+  details.block{margin-top:28px;border:1px solid var(--line);border-radius:18px;background:var(--paper);overflow:hidden}
+  details.block>summary{cursor:pointer;list-style:none;padding:22px 26px;font-family:Fraunces,Georgia,serif;font-size:1.45rem;font-weight:600;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  details.block>summary::-webkit-details-marker{display:none}
+  details.block>summary::after{content:"+";color:var(--ochre);font-size:1.6rem;line-height:1}
+  details.block[open]>summary::after{content:"–"}
+  details.block[open]>summary{border-bottom:1px solid var(--line)}
+  .inner{padding:8px 26px 28px}
+  details.sub{border-bottom:1px solid var(--line);padding:2px 0}
+  details.sub:last-child{border-bottom:none}
+  details.sub>summary{cursor:pointer;padding:14px 0;font-weight:700;color:var(--sage-d)}
+  details.sub>div{padding:0 0 16px}
+  h3{font-size:1.1rem;margin:18px 0 6px}
+  p{margin:8px 0}
+  ul{margin:6px 0 10px;padding-left:20px}
+  li{margin:4px 0}
+  dl{margin:8px 0}
+  dt{font-weight:700;margin-top:10px}
+  dd{margin:2px 0 0;color:var(--mute)}
+  .inner details.block{margin:16px 0 0;background:var(--bg)}
+  .inner details.block>summary{font-size:1.2rem;padding:16px 20px}
+  .inner>.legend{margin:16px 0 0}
+  :focus-visible{outline:2px solid var(--ochre);outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Ergotherapie</h1>
+  <p class="intro">Samenvatting per thema. Klap een thema open om de stof te lezen.</p>
+  <details class="block">
+    <summary>Thema 1</summary>
+    <div class="inner">
+      <p class="legend">Je eigen notities staan gewoon weergegeven. <span class="add">Aanvullingen en definities</span> hebben een lichtoranje markering.</p>
+      <details class="sub" open>
+        <summary>Wat is kinderergotherapie</summary>
+        <div>
+          <p>Kinderergotherapie helpt kinderen die vastlopen in dingen die voor leeftijdsgenootjes vanzelf lijken te gaan, van veters strikken tot stilzitten in de klas. Samen met het kind en de ouders wordt uitgezocht wat het kind nodig heeft, en dat wordt geoefend in het spel.</p>
+          <p>Ergotherapie richt zich op het dagelijks functioneren: spelen, leren, jezelf aankleden, schrijven en omgaan met andere kinderen. Als een van die dingen steeds moeizaam blijft gaan, zoekt de therapeut uit waar dat door komt en oefent de vaardigheid in een omgeving die bij het kind past.</p>
+          <dl>
+            <dt>Fijne motoriek</dt><dd>Knippen, kleuren, schrijven, veters strikken: de kleine bewegingen die veel oefening en de juiste opbouw vragen.</dd>
+            <dt>Prikkelverwerking</dt><dd>Sommige kinderen raken sneller overprikkeld, anderen zoeken juist extra beweging op. Kinderen leren hun eigen systeem kennen.</dd>
+            <dt>Zelfredzaamheid</dt><dd>Aankleden, eten, opruimen, een dagritme volgen: vaardigheden die zelfvertrouwen geven, thuis en op school.</dd>
+          </dl>
+          <p>Doelgroep: kinderen van 4 tot 18 jaar, met behandeling op maat per leeftijd, in de praktijk of op school. Ergotherapie is rechtstreeks toegankelijk, dus zonder verwijzing.</p>
+        </div>
+      </details>
+      <details class="sub">
+        <summary>Herkenbare signalen</summary>
+        <div>
+          <p>Geen van deze punten is op zichzelf een reden tot zorg. Komen er meerdere samen, of houden ze langer aan dan je zou verwachten? Dan kan een gesprek al duidelijkheid geven.</p>
+          <ul>
+            <li><strong>Schrijven kost veel moeite:</strong> het handschrift blijft onleesbaar of het tempo is erg laag voor de leeftijd.</li>
+            <li><strong>Aankleden duurt lang:</strong> knopen, veters en ritsen lukken nog niet zelfstandig, ook niet met oefenen.</li>
+            <li><strong>Snel overprikkeld:</strong> drukte, geluid of kledinglabels leiden regelmatig tot boosheid of terugtrekken.</li>
+            <li><strong>Onhandig in bewegen:</strong> vaker vallen, moeite met traplopen, fietsen of ballen vangen.</li>
+            <li><strong>Vermijdt schrijf- of knutselwerk:</strong> kiest liever iets anders, of raakt gefrustreerd bij tekenen en knippen.</li>
+            <li><strong>Moeite met plannen:</strong> een spullenlijst, een ochtendroutine of een taak in stapjes verdelen lukt niet zonder hulp.</li>
+          </ul>
+        </div>
+      </details>
+      <details class="sub">
+        <summary>De aanpak in vijf stappen</summary>
+        <div>
+          <ol>
+            <li><strong>Kennismaking:</strong> een gesprek met ouders (en het kind) over wat er speelt, thuis en op school.</li>
+            <li><strong>Onderzoek:</strong> met spel, observatie en gerichte testjes in kaart brengen waar de vaardigheden nu staan.</li>
+            <li><strong>Behandelplan:</strong> samen met ouders haalbare doelen opstellen, met een inschatting van het aantal sessies.</li>
+            <li><strong>Behandeling:</strong> wekelijkse sessies van 30 tot 45 minuten, spelenderwijs opgebouwd rond de doelen van het kind.</li>
+            <li><strong>Evaluatie en afronding:</strong> de vooruitgang meten, afstemmen met school waar nodig en de begeleiding afbouwen zodra het kind zelfstandig verder kan.</li>
+          </ol>
+        </div>
+      </details>
+      <details class="sub">
+        <summary>Over de praktijk (voorbeeld)</summary>
+        <div>
+          <p>Een kleine praktijk, gericht op één kind tegelijk. De kinderergotherapeut werkt met kinderen van 4 tot 18 jaar, individueel of in kleine groepjes, in de praktijk, op school of thuis.</p>
+          <ul>
+            <li>Geregistreerd in het Kwaliteitsregister Paramedici</li>
+            <li>Nauw contact met leerkrachten en intern begeleiders</li>
+            <li>Vergoeding vanuit de basisverzekering (eerste 10 uur per jaar)</li>
+            <li>Wachttijd meestal binnen twee tot drie weken</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Wat is handelen? (hoorcollege 2)</summary>
+        <div>
+          <p>Handelen is verschillend per persoon. Het kerndomein van de ergotherapie is het dagelijks handelen, ook wel <em>occupation</em> genoemd.</p>
+          <p>Het handelen is de uitvoering van activiteiten en taken. Handelen is doelgericht, vindt plaats in een context en hangt samen met de ervaring en de betekenis die de persoon eraan geeft.</p>
+          <p><strong>Participatie:</strong> ergotherapeuten richten zich op het mogelijk maken van dagelijkse activiteiten, zodat mensen weer mee kunnen doen in de maatschappij.</p>
+
+          <h3>PEO-model (een inhoudsmodel)</h3>
+          <p>PEO staat voor Person, Environment, Occupation. Het dagelijks handelen is het resultaat van een dynamische interactie tussen deze drie elementen. <span class="add">Een inhoudsmodel beschrijft waar je naar kijkt (de inhoud), een procesmodel beschrijft hoe je te werk gaat.</span></p>
+          <dl>
+            <dt>Persoon</dt><dd>De persoon die handelt. Doelgroepen: kinderen, volwassenen en ouderen met een beperking op fysiek, mentaal of gedragsmatig gebied. Het kan ook een groep zijn.</dd>
+            <dt>Omgeving/context</dt>
+            <dd>Alles wat in de omgeving aanwezig is:
+              <ul>
+                <li>Fysieke omgeving, bijvoorbeeld de locatie (Groningen, Nederland)</li>
+                <li>Sociale omgeving: vriendengroep, familie, buurt</li>
+                <li>Technologische omgeving: bijvoorbeeld alles wat online gebeurt</li>
+              </ul>
+            </dd>
+            <dt>Activiteit</dt><dd>Een verzameling van taken met een specifiek eindpunt of resultaat. <em>Occupation</em> is de uitvoering van activiteiten.</dd>
+          </dl>
+          <p>Drie categorieën activiteiten:</p>
+          <ul>
+            <li><strong>Zorgen en wonen</strong> <span class="add">(bijvoorbeeld aankleden, koken, schoonmaken)</span></li>
+            <li><strong>Leren en werken</strong> <span class="add">(bijvoorbeeld studeren, een baan, vrijwilligerswerk)</span></li>
+            <li><strong>Spelen en vrije tijd</strong> <span class="add">(bijvoorbeeld sporten, een hobby, afspreken met vrienden)</span></li>
+          </ul>
+          <p>Let op: het is geen starre indeling. Afhankelijk van wat het voor de persoon betekent, valt een activiteit in een van de drie categorieën.</p>
+
+          <h3>Dagelijks handelen</h3>
+          <p>Het dagelijks handelen bevat alle activiteiten en taken die mensen doen en/of waar zij bij betrokken zijn. Daardoor zorgen ze voor zichzelf en anderen, recreëren ze, ontspannen ze, onderhouden ze sociale contacten en nemen ze deel aan de maatschappij door onderwijs, arbeid of vrijwilligerswerk.</p>
+
+          <h3>Dimensies van het dagelijks handelen</h3>
+          <dl>
+            <dt>Doing: het doen</dt><dd class="add">Wat je doet, de activiteiten zelf.</dd>
+            <dt>Being: het zijn</dt><dd class="add">Wie je bent, wat je doet maakt je tot wie je bent.</dd>
+            <dt>Becoming: het worden</dt><dd class="add">Wie je wilt worden, groei en ontwikkeling.</dd>
+            <dt>Belonging: ergens bij horen</dt><dd class="add">Verbondenheid met anderen, een groep of gemeenschap.</dd>
+          </dl>
+          <p>Het leven is een proces, waarin alles wat mensen doen hen maakt tot wat ze zijn. Het is onderdeel van wie zij worden. Het is belangrijk om ergens bij te horen.</p>
+
+          <h3>Handelingsrepertoire</h3>
+          <p>De verzameling van activiteiten binnen het dagelijks handelen van een persoon op een bepaald moment.</p>
+
+          <h3>Ook groepen handelen</h3>
+          <p>Definities van het dagelijks handelen zijn niet langer alleen gericht op het individu, maar ook op groepen. Nieuwe begrippen:</p>
+          <ul>
+            <li><strong>Co-occupation / shared occupation:</strong> handelen waarbij twee of meer mensen betrokken zijn <span class="add">(bijvoorbeeld samen koken of een ouder en kind die samen spelen)</span></li>
+            <li><strong>Collective occupation:</strong> gezamenlijk handelen met een hoger doel, zoals protesteren tegen klimaatverandering</li>
+          </ul>
+
+          <h3>Wanneer komt de ergotherapeut in beeld?</h3>
+          <p>Wanneer mensen hun dagelijkse activiteiten niet naar tevredenheid kunnen uitvoeren. Het handelen is het aangrijpingspunt voor de therapie.</p>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>TCOP: Taxonomic Code of Occupational Performance</summary>
+        <div>
+          <p>Townsend en Polatajko verdelen het dagelijks handelen in vijf niveaus op basis van complexiteit. Om die hiërarchie beter te begrijpen is de TCOP ontwikkeld. <span class="add">Taxonomie = een indeling in een vaste rangorde, hier van complex naar eenvoudig.</span></p>
+          <h3>Opsplitsen</h3>
+          <ol>
+            <li>Noem 1 handeling</li>
+            <li>Splits 1 handeling in 4 activiteiten</li>
+            <li>Kies 1 activiteit en splits die in 4 taken</li>
+            <li>Kies 1 taak en splits die in 4 basisvaardigheden</li>
+            <li>Kies 1 basisvaardigheid en splits die in 4 functies (2 functies en 2 mentale processen)</li>
+          </ol>
+          <p class="add">Voorbeeld: handeling koken → activiteit een warme maaltijd bereiden → taak groenten snijden → basisvaardigheid een mes vasthouden en bewegen → functies: handkracht en fijne motoriek (functies), aandacht en geheugen (mentale processen).</p>
+
+          <h3>De onderdelen van handelen</h3>
+          <dl>
+            <dt>Welke handeling</dt><dd>Wat doet iemand precies?</dd>
+            <dt>Betekenis</dt><dd>Waarom is dit handelen belangrijk voor deze persoon? Noteer bij voorkeur een letterlijk citaat.</dd>
+            <dt>Rol</dt><dd>In welke rol voert iemand dit handelen uit?</dd>
+            <dt>Tijdscomponent</dt><dd>Wanneer, hoe laat en hoe lang?</dd>
+            <dt>Context</dt><dd>In welke fysieke omgeving vindt het plaats?</dd>
+          </dl>
+          <h3>Voorbeeld</h3>
+          <ul>
+            <li><strong>Welke handeling:</strong> werken bij de brandweer</li>
+            <li><strong>Betekenis:</strong> “wij willen mensen helpen, daar doe ik het voor”</li>
+            <li><strong>Rol:</strong> brandweerman</li>
+            <li><strong>Tijdscomponent:</strong> 's avonds, 22:00 uur, gedurende 3 uur, of ieder moment</li>
+            <li><strong>Context:</strong> bij een brand, waar mensen hulp nodig hebben, brandweerkazerne, brandweervoertuig</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Context: handelingscontexten</summary>
+        <div>
+          <p>Ergotherapeuten werken samen met en in de omgeving van de persoon. Ze onderscheiden hierbij de fysieke, sociale en technologische omgeving van de persoon, organisatie of gemeenschap:</p>
+          <ul>
+            <li><strong>De naaste omgeving:</strong> het gezin, de familie en vrienden (die ook mantelzorger kunnen zijn) en andere betrokkenen</li>
+            <li><strong>De organisatie:</strong> de school, het werk of het zorgcentrum</li>
+            <li><strong>De gemeenschap:</strong> de buurt en netwerken in de vrije tijd</li>
+          </ul>
+          <h3>Micro-, meso- en macro-omgeving</h3>
+          <dl>
+            <dt>Micro</dt><dd>De fysieke en sociale omgeving van de persoon: diens familie, vrienden en mensen in de buurt.</dd>
+            <dt>Meso</dt><dd>De fysieke en sociale omgeving van belangrijke maatschappelijke voorzieningen, zoals onderwijs, gezondheidszorg, cultuur en sport.</dd>
+            <dt>Macro</dt><dd class="add">De samenleving als geheel: wetten en regels, beleid, economie, cultuur en normen en waarden.</dd>
+          </dl>
+          <h3>De ergotherapeut en de omgeving</h3>
+          <p>De ergotherapeut:</p>
+          <ul>
+            <li>inventariseert knelpunten in de omgeving</li>
+            <li>ondersteunt veranderingen in de omgeving</li>
+            <li>ondersteunt bij het gebruiken van hulpbronnen uit de omgeving</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Praktijkcontexten (hoorcollege 9)</summary>
+        <div>
+          <h3>Twee perspectieven binnen de ergotherapie</h3>
+          <dl>
+            <dt>Individueel perspectief</dt><dd>Behandelen en adviseren van individuele cliënten en hun systeem: <em>enabling individual change</em>. <span class="add">Bijvoorbeeld een kind leren zelf te eten.</span></dd>
+            <dt>Sociaal perspectief</dt><dd>Ondersteunen en versterken van groepen, organisaties en populaties: <em>enabling social change</em>. <span class="add">Bijvoorbeeld een school helpen om toegankelijk te worden voor alle kinderen.</span></dd>
+          </dl>
+          <h3>Cliënt in breder perspectief</h3>
+          <p>Persoon en systeem, organisaties en populaties. <span class="add">Een populatie is een grotere groep mensen met iets gemeenschappelijks, zoals alle ouderen in een wijk.</span></p>
+          <h3>Context</h3>
+          <p>Context is een term die in één woord alles aanduidt wat in de omgeving aanwezig is en invloed uitoefent op het dagelijks handelen (Hartingsveldt et al., 2010).</p>
+          <p><strong>Context cliënt versus praktijkcontext van de werkende ergotherapeut:</strong> de context van de cliënt is de omgeving waarin die handelt. <span class="add">De praktijkcontext is de organisatie waarin de ergotherapeut werkt (bijvoorbeeld ziekenhuis, school of wijkteam), met eigen regels, financiering en doelgroep.</span> Ook deze context beïnvloedt ons dagelijks handelen (werken).</p>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Kinesiologie: hoe kijkt de kinesiologie naar handelen? (hoorcollege 5)</summary>
+        <div>
+          <p>Kinesiologie = bewegingsleer. Na dit onderdeel weet je: anatomische vlakken en assen benoemen met medische nomenclatuur, bewegingen aanduiden met medische nomenclatuur en onderdelen van een gewricht beschrijven.</p>
+          <h3>Anatomie</h3>
+          <p>Botten/skelet, bloedvaten, spieren, banden om gewrichten, pezen, zenuwen en organen. De anatomische nomenclatuur is Latijn. <span class="add">Topografie = de beschrijving van locaties, richtingen en structuren in het lichaam.</span></p>
+          <h3>Anatomische houding</h3>
+          <p>De standaardhouding van waaruit we werken:</p>
+          <ul>
+            <li>alles ontspannen</li>
+            <li>touwtje aan je kruin, rechtop</li>
+            <li>armen en benen langs het lichaam</li>
+            <li>handpalmen naar voren gedraaid</li>
+          </ul>
+          <h3>Vlakken en assen</h3>
+          <dl>
+            <dt>Frontaal vlak</dt><dd>Verdeelt het lichaam in voor en achter.</dd>
+            <dt>Sagittaal vlak</dt><dd>Verdeelt het lichaam in links en rechts.</dd>
+            <dt>Transversaal vlak</dt><dd>Verdeelt het lichaam in boven en onder.</dd>
+          </dl>
+          <p class="add">Een beweging vindt plaats in een vlak en draait om een as die loodrecht op dat vlak staat. Flexie en extensie gebeuren in het sagittale vlak (om een as van links naar rechts), abductie en adductie in het frontale vlak (om een as van voor naar achter) en rotaties in het transversale vlak (om een verticale as). De namen van de assen verschillen soms per boek, check dit in je eigen lesmateriaal.</p>
+          <h3>Aanzichten en richtingen</h3>
+          <dl>
+            <dt>Ventraal aanzicht</dt><dd>Buikzijde (venter = buik)</dd>
+            <dt>Dorsaal aanzicht</dt><dd>Rugzijde (dors = rug)</dd>
+            <dt>Ventraal / anterior</dt><dd>Voor</dd>
+            <dt>Dorsaal / posterior</dt><dd>Achter</dd>
+            <dt>Sinister</dt><dd>Links</dd>
+            <dt>Dexter</dt><dd>Rechts</dd>
+            <dt>Lateraal</dt><dd>Zijkant, van het midden af</dd>
+            <dt>Mediaal</dt><dd>Richting het midden</dd>
+            <dt>Midsagittaal / mediaan</dt><dd>Precies door het midden van het lichaam</dd>
+            <dt>Craniaal / superior</dt><dd>Boven, richting het hoofd</dd>
+            <dt>Caudaal / inferior</dt><dd>Beneden, richting de voeten</dd>
+            <dt>Proximaal</dt><dd class="add">Dichter bij de romp (of bij het begin van een ledemaat).</dd>
+            <dt>Distaal</dt><dd class="add">Verder van de romp af.</dd>
+          </dl>
+          <h3>Gewrichtstypen</h3>
+          <p>Een gewricht is de plek waar twee botten samenkomen. Gewrichten zijn in te delen aan de hand van:</p>
+          <ul>
+            <li>De soort verbinding (kraakbeen, bindweefsel, synoviale vloeistof), waarbij de mate van beweeglijkheid verschilt</li>
+            <li>De bouw van het gewricht (scharniergewricht, kogelgewricht)</li>
+          </ul>
+          <p class="add">Convex = bol, concaaf = hol. In een gewricht past meestal een bolle gewrichtskop in een holle gewrichtskom. Flexie = buigen, extensie = strekken.</p>
+          <dl>
+            <dt>Cilindergewricht</dt>
+            <dd>Heeft twee varianten:
+              <ul>
+                <li><strong>Scharniergewricht:</strong> knie, vingerkootjes en tenen, enkel, pols. Beweging: flexie en extensie, maar de naamgeving verschilt per gewricht. Pols: dorsaalflexie en palmairflexie. Enkel: dorsaalflexie en plantairflexie. <span class="add">(Palmair = kant van de handpalm, plantair = kant van de voetzool, dorsaal = rugzijde.)</span></li>
+                  <li><strong>Draai- of rolgewricht:</strong> onderarm. Beweging: roteren, met speciale namen: <strong>supinatie</strong> (handpalm naar boven, soepkommetje maken) en <strong>pronatie</strong> (handpalm naar beneden, de andere kant op). De gewrichten heten art. radioulnares (hoef je niet te kennen).</li>
+              </ul>
+            </dd>
+            <dt>Kogelgewricht</dt>
+            <dd>Schouder en heup, kop en kom. Bewegingen:
+              <ul>
+                <li>Sagittaal: anteflexie (naar voren bewegen) en retroflexie (naar achter bewegen)</li>
+                <li>Frontaal: abductie (van het lichaam af) en adductie (naar het lichaam toe)</li>
+                <li>Transversaal: endorotatie (naar binnen) en exorotatie (naar buiten)</li>
+              </ul>
+            </dd>
+            <dt>Eigewricht (ellipsoidgewricht)</dt>
+            <dd>Kop en kom, afgeplat ten opzichte van het kogelgewricht. Voorbeelden: pols en MCP-gewricht (metacarpo-phalangeaal gewricht, de knokkel van de vingers; die naam hoef je niet te kennen). Bewegingen: palmairflexie, dorsaalflexie, ulnaire abductie en radiale abductie. <span class="add">Ulnair = richting de pink (ulna), radiaal = richting de duim (radius). Ezelsbruggetje D.R.U.P.: Duim, Radius, Ulna, Pink. Een eigewricht beweegt in twee richtingen; de pols hoort hier eigenlijk bij.</span></dd>
+            <dt>Zadelgewricht</dt><dd class="add">Twee gewrichtsvlakken die als een ruiter op een zadel in elkaar passen en in twee richtingen kunnen bewegen. Voorbeeld: de basis van de duim, waardoor de duim tegenover de vingers kan komen (oppositie).</dd>
+            <dt>Vlak gewricht</dt><dd class="add">Platte gewrichtsvlakken die langs elkaar glijden, met weinig beweging. Voorbeeld: gewrichten tussen de handwortelbeentjes en tussen de wervels.</dd>
+          </dl>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Psychologie: hoe kijkt de psychologie naar handelen?</summary>
+        <div>
+          <h3>Wat is psychologie?</h3>
+          <p>De term is een combinatie van twee Griekse woorden: <em>psyché</em> (levensadem, leven, geest, ziel) en <em>logos</em> (woord, gedachte, rede). Psychologie is de wetenschap van het gedrag en de psychische processen van het individu. <span class="add">Gedrag is alles wat je doet (en wat je denkt, droomt en wenst). Psychische processen zijn de innerlijke processen erachter. Empirisch = gebaseerd op waarneming en onderzoek, niet op meningen.</span></p>
+
+          <h3>Psychoanalyse (Sigmund Freud)</h3>
+          <p>Droomduiding en psychoanalyse komen van Freud. Psychoanalyse is een theorie en therapievorm die stelt dat onbewuste processen, innerlijke conflicten en vroege ervaringen bepalend zijn voor ons gedrag en onze emoties.</p>
+          <ul>
+            <li><strong>Het onbewuste:</strong> <span class="add">gedachten, gevoelens en wensen waar je je niet van bewust bent maar die je gedrag wel sturen.</span></li>
+            <li><strong>Id, ego en superego:</strong> <span class="add">het id is het driftmatige deel dat meteen bevrediging wil, het superego is het geweten met normen en waarden, het ego bemiddelt daartussen en houdt rekening met de werkelijkheid.</span></li>
+            <li><strong>Verdringingsmechanismen:</strong> <span class="add">manieren waarop je onbewust pijnlijke gedachten of gevoelens buiten je bewustzijn houdt (afweermechanismen), bijvoorbeeld verdringing, ontkenning en projectie.</span></li>
+            <li><strong>Droomduiding en hypnose:</strong> <span class="add">Freud zag dromen als een weg naar het onbewuste, waarin verborgen wensen verschijnen. Hypnose is een toestand van verhoogde suggestibiliteit waarmee onbewust materiaal naar boven kan komen.</span></li>
+            <li><strong>Invloed van de vroege jeugd:</strong> <span class="add">ervaringen in de eerste levensjaren bepalen mede wie je later bent.</span></li>
+          </ul>
+
+          <h3>Philip Zimbardo</h3>
+          <p>Experiment in 1971 aan de Stanford-universiteit: het gevangenisexperiment. Deelnemers werden <em>at random</em> (willekeurig) toegewezen aan de rol van bewaker of gevangene. <span class="add">Het liet zien hoe sterk een situatie en rol gedrag kunnen beïnvloeden. Het experiment is later ook bekritiseerd, onder meer om ethische redenen.</span></p>
+
+          <h3>Methoden</h3>
+          <dl>
+            <dt>Introspectie</dt><dd class="add">Kijken naar je eigen innerlijk en beschrijven wat je denkt en voelt.</dd>
+            <dt>Experiment</dt><dd class="add">Je verandert bewust iets en kijkt wat het effect is, zodat je oorzaak en gevolg kunt vaststellen. Bijvoorbeeld Asch (invloed van de groep op je mening, conformiteit) en Milgram (gehoorzaamheid aan autoriteit).</dd>
+            <dt>Correlatieonderzoek</dt><dd class="add">Onderzoek naar de samenhang tussen twee zaken. Samenhang betekent niet dat het ene het andere veroorzaakt.</dd>
+            <dt>Survey</dt><dd class="add">Een vragenlijst of enquête bij een grote groep mensen.</dd>
+            <dt>Natuurlijke observatie</dt><dd class="add">Gedrag waarnemen in de gewone omgeving, zonder in te grijpen.</dd>
+            <dt>Gevalsstudie (N=1)</dt><dd>N staat voor number: onderzoek bij 1 persoon.</dd>
+            <dt>Kwantitatief / kwalitatief</dt><dd class="add">Kwantitatief onderzoek werkt met cijfers en metingen, kwalitatief onderzoek met woorden, ervaringen en interpretatie (bijvoorbeeld interviews).</dd>
+            <dt>Ontwerpend onderzoeken</dt><dd class="add">Design thinking / design research: al ontwerpend en met de gebruiker testend een oplossing ontwikkelen.</dd>
+          </dl>
+
+          <h3>Gedragsdeterminanten</h3>
+          <p class="add">Determinanten zijn factoren die gedrag bepalen.</p>
+          <dl>
+            <dt>Biologisch perspectief</dt><dd>Neurowetenschap (het centrale zenuwstelsel), erfelijkheid/genetica en evolutie.</dd>
+            <dt>Psychologisch perspectief (whole person)</dt><dd>Persoonlijkheid (of karakter) en disposities. <span class="add">Een dispositie is een aanleg of vast gedragspatroon.</span></dd>
+            <dt>Sociaal perspectief (omgevingsoorzaken)</dt><dd>Situatie en omstandigheden, opvoeding, socialisatie en cultuur. <span class="add">Socialisatie is het proces waarin je de normen en waarden van je omgeving aanleert.</span></dd>
+          </dl>
+
+          <h3>Temperament en persoonlijkheid</h3>
+          <p>Temperamenttheorie: je wordt geboren met een aantal eigenschappen. Het temperament bepaalt vooral <strong>de manier</strong> waarop iemand iets doet.</p>
+          <dl>
+            <dt>Hippocrates: vier temperamenten</dt>
+            <dd>
+              <ul>
+                <li>Sanguinisch (bloed) <span class="add">: opgewekt en sociaal</span></li>
+                <li>Cholerisch ((gele) gal) <span class="add">: fel en snel boos</span></li>
+                <li>Melancholisch (zwarte gal) <span class="add">: bedachtzaam en zwaarmoedig</span></li>
+                <li>Flegmatisch (slijm) <span class="add">: rustig en kalm</span></li>
+              </ul>
+            </dd>
+            <dt>Eysenck</dt><dd>Twee dimensies: neurotisch tot evenwichtig en introvert tot extravert. <span class="add">Combineer je ze, dan krijg je de vier temperamenten: sanguinisch (extravert en evenwichtig), cholerisch (extravert en neurotisch), melancholisch (introvert en neurotisch) en flegmatisch (introvert en evenwichtig).</span></dd>
+          </dl>
+          <h3>Big Five (1981)</h3>
+          <p>OCEAN zijn de wetenschappelijke namen voor de vijf dimensies <span class="add">(Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism)</span>.</p>
+          <ul>
+            <li>Extraversie, tegenpool: introversie</li>
+            <li>Vriendelijkheid, tegenpool: bazig, twistziek</li>
+            <li>Zorgvuldigheid, tegenpool: gemakzuchtig, nonchalant</li>
+            <li>Stabiliteit, tegenpool: paniekerig, overgevoelig</li>
+            <li>Openheid voor ervaring, tegenpool: conservatief</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Sociologie en diversiteit</summary>
+        <div>
+          <dl>
+            <dt>Referentiekaders</dt><dd class="add">De bril waardoor je naar de wereld kijkt, gevormd door je opvoeding, cultuur en ervaringen. Het bepaalt hoe je situaties en mensen interpreteert, en je merkt het zelf vaak niet.</dd>
+            <dt>Sociaal bewustzijn</dt><dd>Beter grip op je eigen leven en beter begrip van het leven van anderen.</dd>
+            <dt>Discrimineren</dt><dd>Letterlijk onderscheid maken. Dat hoeft niet negatief te zijn. <span class="add">In het dagelijks taalgebruik bedoelt men er vaak mee dat mensen onterecht ongelijk worden behandeld.</span></dd>
+            <dt>Halo-effect</dt><dd class="add">Eén positieve eigenschap kleurt je hele oordeel over iemand positief (iemand ziet er verzorgd uit, dus je denkt dat hij ook slim en betrouwbaar is).</dd>
+            <dt>Horn-effect</dt><dd class="add">Het omgekeerde: één negatieve eigenschap kleurt je hele oordeel negatief.</dd>
+            <dt>Cognitieve dissonantie</dt><dd class="add">Het onprettige gevoel dat ontstaat als je gedrag, gedachten of overtuigingen niet met elkaar kloppen (Festinger). Mensen proberen dat op te lossen door hun gedrag of overtuiging aan te passen, of door het gedrag te rechtvaardigen. Voorbeeld: een roker die weet dat roken ongezond is.</dd>
+          </dl>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Professionalisering (1.8.BOwc2)</summary>
+        <div>
+          <ul>
+            <li><strong>Beroepsontwikkeling:</strong> wat is ergotherapie?</li>
+            <li><strong>Persoonlijke ontwikkeling:</strong> wie ben ik?</li>
+            <li><strong>Profileringsruimte:</strong> dit ben ik</li>
+          </ul>
+          <h3>Persoonlijke ontwikkelingslijn</h3>
+          <ul>
+            <li>SB-lessen met eigen inbreng en thema's</li>
+            <li>Medestudenten: samen leren en elkaar feedback geven</li>
+            <li>Mentoren</li>
+          </ul>
+          <p>SB-opdrachten:</p>
+          <ul>
+            <li><strong>Toekomstverhaal</strong> <span class="add">(een verhaal over hoe je jezelf in de toekomst ziet, als persoon en als professional)</span></li>
+            <li><strong>Storyline</strong> <span class="add">(het verhaal van je eigen ontwikkeling tot nu toe, met belangrijke momenten en keerpunten)</span></li>
+            <li><strong>Reflectieopdracht</strong> <span class="add">(terugkijken op een ervaring: wat gebeurde er, wat leerde je en wat doe je een volgende keer anders)</span></li>
+            <li><strong>Portfolio</strong> <span class="add">(een verzameling van je opdrachten en bewijzen die je ontwikkeling laat zien)</span></li>
+          </ul>
+          <h3>Zelfdeterminatietheorie</h3>
+          <p class="add">Van Deci en Ryan: mensen zijn intrinsiek gemotiveerd als aan drie basisbehoeften is voldaan.</p>
+          <dl>
+            <dt>Autonomie</dt><dd class="add">Je voelt dat je zelf keuzes kunt maken en regie hebt.</dd>
+            <dt>Competentie</dt><dd class="add">Je voelt je bekwaam en merkt dat je iets kunt.</dd>
+            <dt>Verbondenheid</dt><dd class="add">Je voelt je verbonden met anderen en hoort erbij.</dd>
+          </dl>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Wegwijs in de mediatheek</summary>
+        <div>
+          <p>Een eerste kennismaking met de Hanzemediatheek Wiebenga. Collectie van de Hanzemediatheek (fysiek):</p>
+          <ul>
+            <li><strong>Lijstboeken</strong> <span class="add">(boeken van de literatuurlijst van je opleiding)</span></li>
+            <li><strong>Achtergrondliteratuur</strong> <span class="add">(boeken om je verder in een onderwerp te verdiepen)</span></li>
+            <li><strong>Tijdschriften</strong> <span class="add">(vakbladen en andere periodieken)</span></li>
+            <li><strong>Studeerplekken</strong> <span class="add">(plekken om te studeren, alleen of samen)</span></li>
+            <li><strong>Balie en self-service</strong> <span class="add">(hulp aan de balie, of zelf boeken lenen en terugbrengen)</span></li>
+            <li><strong>Vragenuurtje</strong> <span class="add">(een moment waarop je vragen kunt stellen aan de mediatheekmedewerkers)</span></li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </details>
+
+  <details class="block">
+    <summary>Thema 2</summary>
+    <div class="inner">
+      <p class="legend">Je eigen notities staan gewoon weergegeven. <span class="add">Aanvullingen en definities</span> hebben een lichtoranje markering.</p>
+
+  <details class="block" open>
+    <summary>Methodisch handelen</summary>
+    <div class="inner">
+
+      <details class="sub" open>
+        <summary>Gouden cirkel</summary>
+        <div>
+          <dl>
+            <dt>Wat?</dt><dd>Wat doe je eigenlijk?</dd>
+            <dt>Hoe?</dt><dd>Hoe doe je wat je doet?</dd>
+            <dt>Waarom?</dt><dd>Waarom doe je wat je doet, wat is het doel?</dd>
+          </dl>
+          <p><span class="add">Het model is van Simon Sinek. De cirkel wordt van binnen naar buiten gelezen: je begint bij het waarom (het doel of de overtuiging), daarna volgt het hoe (de werkwijze) en tot slot het wat (het concrete aanbod of de handelingen).</span></p>
+        </div>
+      </details>
+
+      <details class="sub" open>
+        <summary>Basismodel: zes stappen</summary>
+        <div>
+          <ol>
+            <li>Vraagstelling</li><li>Kennismaking</li><li>Inventarisatie en analyse</li><li>Doelbepaling</li><li>Opstellen en uitvoeren plan van aanpak</li><li>Evaluatie, afronding en vervolg</li>
+          </ol>
+          <p><span class="add">Het basismodel is de vaste werkwijze van de ergotherapeut. Het is geen rechte lijn: je kunt tijdens het proces terug naar een eerdere stap, bijvoorbeeld als de vraagstelling verandert.</span></p>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>1. Vraagstelling</summary>
+        <div>
+          <ul>
+            <li>Mondelinge of schriftelijke verwijzing</li>
+            <li>Beoordeling handelingsvraag <span class="add">(een handelingsvraag gaat over wat iemand wil of moet kunnen doen in het dagelijks leven en nu niet lukt; hier beoordeelt de ergotherapeut of ergotherapie passend is)</span></li>
+            <li>Direct toegankelijke ergotherapie (DTE) <span class="add">(de cliënt kan rechtstreeks naar de ergotherapeut, zonder verwijzing van huisarts of specialist)</span></li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>2. Kennismaking</summary>
+        <div>
+          <ul>
+            <li>Ontmoeting</li>
+            <li>Samenwerken</li>
+            <li>Therapeutische relatie <span class="add">(de professionele vertrouwensband tussen cliënt en therapeut, basis voor alles wat volgt)</span></li>
+            <li>Bereidheid tot verandering <span class="add">(in hoeverre de cliënt gemotiveerd is om iets aan de situatie te doen)</span></li>
+            <li>Sociale omgeving <span class="add">(naasten, school, werk; zij beïnvloeden het handelen en worden waar nodig betrokken)</span></li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>3. Inventarisatie en analyse</summary>
+        <div>
+          <h3>Vragen, wensen en verwachtingen</h3>
+          <p>Verzamelen van informatie:</p>
+          <ul>
+            <li>Verleden, heden, toekomst</li>
+            <li>Persoon en systeem <span class="add">(systeem = de omgeving rond de persoon, zoals gezin, school en hulpverleners)</span></li>
+            <li>Rollen, taken, handelingspatronen, waarden, interesses, kwaliteiten en hulpbronnen</li>
+            <li>Mogelijkheden en belemmeringen in persoonlijke en omgevingsfactoren</li>
+          </ul>
+          <dl class="add" style="display:block;padding:8px 12px;border-radius:8px">
+            <dt style="margin-top:0">Rol</dt><dd>Positie die je inneemt, zoals ouder, student of collega.</dd>
+            <dt>Taak</dt><dd>Wat bij een rol hoort om te doen.</dd>
+            <dt>Handelingspatroon</dt><dd>Gewoonten en routines in hoe iemand dagelijks handelt.</dd>
+            <dt>Waarden</dt><dd>Wat iemand belangrijk vindt in het leven.</dd>
+            <dt>Hulpbronnen</dt><dd>Mensen, middelen of geld waar iemand op kan terugvallen.</dd>
+          </dl>
+          <h3>Assessment-instrumenten</h3>
+          <ul>
+            <li>Vragenlijst <span class="add">(vaste vragen die iemand beantwoordt)</span></li>
+            <li>Zelfrapportagelijsten <span class="add">(de cliënt beoordeelt zelf zijn eigen functioneren)</span></li>
+            <li>Gestandaardiseerde observaties <span class="add">(observatie volgens een vaste procedure, zodat uitkomsten vergelijkbaar zijn)</span></li>
+            <li>Testen <span class="add">(gestandaardiseerde meting, vaak met normscores)</span></li>
+            <li>(Semi)gestructureerde interviews <span class="add">(gesprek met vaste onderwerpen of vragen; bij semigestructureerd is ruimte voor eigen inbreng, zoals bij de COPM)</span></li>
+            <li>Niet-gestandaardiseerd assessment <span class="add">(vrije observatie of gesprek zonder vaste procedure)</span></li>
+          </ul>
+          <ul>
+            <li>Interpreteren, analyseren en ordenen van gegevens <span class="add">(wat is het belangrijkst? zo stel je prioriteiten)</span></li>
+            <li>Vraagformulering en analyse van het dagelijks handelen</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>4. Doelbepaling</summary>
+        <div>
+          <p>Een doel is:</p>
+          <ul>
+            <li>Gericht op betekenisvolle activiteiten en participatie <span class="add">(participatie = meedoen in de maatschappij)</span></li>
+            <li>Gezamenlijk opgesteld</li>
+            <li>Concreet en meetbaar</li>
+            <li>Aansluitend bij: werksetting, context, wettelijke en financiële kaders, life goals en de dimensies van positieve gezondheid door een holistische kijk (Huber)</li>
+          </ul>
+          <p><span class="add">Positieve gezondheid (Machteld Huber): gezondheid is het vermogen je aan te passen en zelf regie te voeren. Zes dimensies: lichaamsfuncties, mentaal welbevinden, zingeving, kwaliteit van leven, meedoen en dagelijks functioneren. Holistisch betekent dat je naar de hele mens kijkt, niet alleen naar de klacht.</span></p>
+          <p>Interprofessioneel <span class="add">(samenwerken met andere disciplines, zoals fysiotherapeut, logopedist en leerkracht, rond hetzelfde doel)</span></p>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>5. Plan van aanpak uitvoeren</summary>
+        <div>
+          <dl>
+            <dt>Occupational-based</dt><dd class="add">Gebaseerd op betekenisvol handelen: de activiteit zelf is middel én doel van de behandeling.</dd>
+            <dt>Person-centered</dt><dd class="add">De cliënt staat centraal met eigen wensen en eigen regie.</dd>
+            <dt>Context-based</dt><dd class="add">De fysieke, sociale en culturele context wordt meegenomen.</dd>
+            <dt>Evidence-based</dt><dd class="add">Beslissingen steunen op onderzoek, ervaring van de therapeut en voorkeuren van de cliënt.</dd>
+            <dt>Technology-based</dt><dd class="add">Inzet van technologie, zoals hulpmiddelen, apps en e-health.</dd>
+            <dt>Community-based</dt><dd class="add">Werken in de leefomgeving van de cliënt, zoals de wijk, school of vereniging.</dd>
+            <dt>Enablement skills</dt><dd class="add">Vaardigheden waarmee de therapeut de cliënt in staat stelt te handelen, zoals coachen, samenwerken, adviseren, aanpassen en pleiten voor de cliënt.</dd>
+          </dl>
+          <p>Evaluatie en bijstellen <span class="add">(tussentijds checken of de doelen gehaald worden en het plan aanpassen waar nodig)</span></p>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>6. Evaluatie, afronding en vervolg</summary>
+        <div>
+          <ul>
+            <li>Evaluatie doelen en tevredenheid</li>
+            <li>Nieuwe of bijgestelde vraagstelling / afronding</li>
+            <li>Nazorg <span class="add">(afspraken na afronding, zoals een controlemoment of weten waar de cliënt terecht kan)</span></li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </details>
+
+  <details class="block">
+    <summary>Motivatie en emotie</summary>
+    <div class="inner">
+
+      <details class="sub" open>
+        <summary>Motivatie</summary>
+        <div>
+          <p>Motivatie: alle processen die te maken hebben met de aanzet, de richting, de intensiteit en het volhouden van lichamelijke en psychische activiteiten.</p>
+          <p><strong>Beschrijving en geen verklaring!</strong></p>
+          <p>Een reificatiefout is snel gemaakt. Reificeren = tot ding maken. <span class="add">Je maakt de fout als je een beschrijving als verklaring gebruikt. Voorbeeld: "Hij doet niets, want hij is niet gemotiveerd." Dat is een cirkelredenering: "niet gemotiveerd" beschrijft alleen het gedrag en verklaart het niet.</span></p>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Wat bepaalt gedrag?</summary>
+        <div>
+          <dl>
+            <dt>Freud: driften</dt><dd class="add">Gedrag wordt gestuurd door onbewuste driften, vooral seksualiteit en agressie.</dd>
+            <dt>Pavlov &amp; Watson: gedrag</dt><dd class="add">Behaviorisme: gedrag is aangeleerd en ontstaat door prikkels uit de omgeving (o.a. klassieke conditionering).</dd>
+            <dt>Maslow: wat de mens wil</dt><dd class="add">Behoeftepiramide: lichamelijke behoeften, veiligheid, sociale binding, waardering en als hoogste zelfactualisatie. Eerst de lagere behoeften, dan de hogere.</dd>
+            <dt>Swaab: stof in het brein</dt><dd class="add">Gedrag komt voort uit hersenstructuren en stoffen zoals neurotransmitters en hormonen ("wij zijn ons brein").</dd>
+            <dt>McClelland: vier kernmotieven</dt>
+            <dd>Deze sturen ons gedrag:
+              <ul>
+                <li><strong>Machtsmotief</strong> <span class="add">(invloed willen hebben op anderen)</span></li>
+                <li><strong>Prestatiemotief</strong> <span class="add">(goed willen presteren, jezelf verbeteren; ook "n Ach", need for achievement)</span></li>
+                <li><strong>Hechtingsmotief</strong> <span class="add">(goede, warme relaties willen)</span></li>
+                <li><strong>Vermijdingsmotief</strong> <span class="add">(falen, afwijzing of pijn willen ontlopen)</span></li>
+              </ul>
+            </dd>
+          </dl>
+          <p>N Ach werd gemeten met behulp van de TAT. <span class="add">TAT = Thematic Apperception Test: de persoon krijgt vage plaatjes en verzint er een verhaal bij; uit de thema's in het verhaal leidt men de motieven af (een projectieve test).</span></p>
+        </div>
+      </details>
+
+      <details class="sub">
+        <summary>Emotie</summary>
+        <div>
+          <h3>Theorie van Nico Frijda (1988)</h3>
+          <p>Een emotie bestaat uit:</p>
+          <ol>
+            <li>Een psychologische reactie op een betekenisvolle gebeurtenis</li>
+            <li>Neiging tot (niet) handelen <span class="add">(actietendens, bijvoorbeeld de drang om weg te rennen)</span></li>
+            <li>Fysiologische veranderingen <span class="add">(bijvoorbeeld hartslag, ademhaling, zweten)</span></li>
+            <li>Subjectieve gevoelens <span class="add">(hoe de emotie voor jou voelt)</span></li>
+          </ol>
+          <p>Emoties helpen te reageren op belangrijke gebeurtenissen en onze bedoeling aan anderen over te brengen.</p>
+          <p><strong>Somatische marker</strong> = een lichaamssignaal dat voortkomt uit eerdere ervaring en dat het nemen van beslissingen stuurt. <span class="add">(Damasio: een knoop in je maag bij een keuze die eerder slecht afliep.)</span></p>
+          <p><strong>Dualisme</strong> = geest en lichaam. <span class="add">De opvatting dat geest en lichaam twee gescheiden dingen zijn (Descartes). Het tegenovergestelde is monisme, waarbij ze één geheel vormen.</span></p>
+
+          <h3>Wat komt eerst?</h3>
+          <p>Betrokken elementen: 1 fysiologische arousal <span class="add">(lichamelijke opwinding of activatie)</span>, 2 psychologische reactie, 3 gedrag.</p>
+          <dl>
+            <dt>James-Lange</dt>
+            <dd class="add">Eerst de lichamelijke reactie, daarna ervaar je de emotie. "Ik ben bang omdat ik begin te trillen."</dd>
+            <dt>Cannon-Bard</dt>
+            <dd>Het emotionele gevoel is heel snel, de fysiologische reactie is wat trager. Beide reacties treden in deze volgorde op, of vrijwel tegelijk. <span class="add">Dus: de emotie is niet het gevolg van de lichamelijke reactie.</span></dd>
+          </dl>
+
+          <h3>Basisemoties</h3>
+          <dl>
+            <dt>Boos</dt><dd class="add">hoort bij agressie</dd>
+            <dt>Bang</dt><dd class="add">hoort bij angst</dd>
+            <dt>Blij</dt><dd class="add">hoort bij vreugde</dd>
+            <dt>Bedroefd</dt><dd class="add">hoort bij verdriet</dd>
+          </dl>
+          <p><span class="add">Handig om te onthouden: de vier B's (boos, bang, blij, bedroefd).</span></p>
+        </div>
+      </details>
+    </div>
+  </details>
+  </div>
+  </details>
+</div>
+</body>
+</html>
